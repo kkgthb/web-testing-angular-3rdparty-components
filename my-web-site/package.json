@@ -1,0 +1,22 @@
+{
+  "name": "web-testing-angular-3rdparty-components",
+  "scripts": {
+    "ng": "ng",
+    "build": "ng build",
+    "storybook": "ng run my-demo-project:storybook",
+    "build-storybook": "ng run my-demo-project:build-storybook"
+  },
+  "dependencies": {
+    "@angular/core": "^20.1.0",
+    "@angular/platform-browser-dynamic": "^20.1.0",
+    "@angular/router": "^20.1.0",
+    "rxjs": "^7.8.2",
+    "zone.js": "^0.15.1"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^20.1.0",
+    "@angular/cli": "^20.1.0",
+    "@storybook/angular": "^9.0.17",
+    "@types/react": "^19.1.8"
+  }
+}
