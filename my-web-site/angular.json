@@ -19,7 +19,16 @@
             "polyfills": [
               "zone.js"
             ],
-            "tsConfig": "tsconfig.app.json"
+            "tsConfig": "tsconfig.app.json",
+            "styles": [
+              "src/styles.scss"
+            ]
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "buildTarget": "my-demo-project:build"
           }
         },
         "storybook": {
@@ -37,7 +46,10 @@
             "configDir": ".storybook",
             "browserTarget": "my-demo-project:build",
             "compodoc": false,
-            "outputDir": "storybook-static"
+            "outputDir": "storybook-static",
+            "styles": [
+              "src/styles.scss"
+            ]
           }
         }
       }

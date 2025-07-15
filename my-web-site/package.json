@@ -3,11 +3,15 @@
   "scripts": {
     "ng": "ng",
     "build": "ng build",
+    "start": "ng serve",
     "storybook": "ng run my-demo-project:storybook",
     "build-storybook": "ng run my-demo-project:build-storybook"
   },
   "dependencies": {
+    "@angular/cdk": "^20.1.0",
     "@angular/core": "^20.1.0",
+    "@angular/forms": "^20.1.0",
+    "@angular/material": "^20.1.0",
     "@angular/platform-browser-dynamic": "^20.1.0",
     "@angular/router": "^20.1.0",
     "rxjs": "^7.8.2",
