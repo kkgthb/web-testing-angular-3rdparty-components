@@ -1,5 +1,5 @@
 import { moduleMetadata, type Meta, type StoryObj } from '@storybook/angular';
-import { MiscellaneousExampleComponent } from './miscellaneous-example.component.ng';
+import { MiscellaneousExampleComponent } from './miscellaneous-example.component';
 import { MatButtonModule } from '@angular/material/button';
 
 const meta: Meta<MiscellaneousExampleComponent> = {

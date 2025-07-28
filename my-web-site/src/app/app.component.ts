@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MiscellaneousExampleComponent } from "src/component-library/miscellaneous-example/miscellaneous-example.component.ng";
+import { MiscellaneousExampleComponent } from "src/component-library/miscellaneous-example/miscellaneous-example.component";
 
 @Component({
     selector: 'app-root',

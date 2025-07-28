@@ -4,7 +4,7 @@ import { MatInputModule } from '@angular/material/input';
 
 @Component({
     selector: 'miscellaneous-example',
-    templateUrl: './miscellaneous-example.component.ng.html',
+    templateUrl: './miscellaneous-example.component.html',
     standalone: true,
     imports: [
         MatButtonModule,

@@ -5,7 +5,17 @@
     "build": "ng build",
     "start": "ng serve",
     "storybook": "ng run my-demo-project:storybook",
-    "build-storybook": "ng run my-demo-project:build-storybook"
+    "build-storybook": "ng run my-demo-project:build-storybook",
+    "playwright:app": "playwright test",
+    "playwright:app:ui": "playwright test --ui",
+    "playwright:app:ui-headed": "playwright test --ui --headed",
+    "playwright:app:debug": "playwright test --debug",
+    "playwright:app:update": "playwright test --update-snapshots",
+    "playwright:component": "playwright test -c playwright.with-ct.config.ts",
+    "playwright:component:ui": "playwright test --ui -c playwright.with-ct.config.ts",
+    "playwright:component:ui-headed": "playwright test --ui --headed -c playwright.with-ct.config.ts",
+    "playwright:component:debug": "playwright test --debug -c playwright.with-ct.config.ts",
+    "playwright:component:update": "playwright test --update-snapshots -c playwright.with-ct.config.ts"
   },
   "dependencies": {
     "@angular/cdk": "^20.1.0",
@@ -20,7 +30,11 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "^20.1.0",
     "@angular/cli": "^20.1.0",
+    "@playwright/test": "^1.54.1",
     "@storybook/angular": "^9.0.17",
+    "@storybook/csf": "^0.1.13",
+    "@storybook/test-runner": "^0.23.0",
+    "@types/node": "^24.0.14",
     "@types/react": "^19.1.8"
   }
 }
