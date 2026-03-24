@@ -1,0 +1,10 @@
+# I have no idea why I had this in `.ignoreme`, but it doesn't look 
+# confidential, and maybe one day I will need it again.
+
+# npm install --save '@angular/core@' '@angular/platform-browser-dynamic' '@angular/router' 'rxjs' 'zone.js'
+# npm install --save-dev '@angular/cli'
+# npm install --save-dev '@storybook/angular' '@types/react'
+# npx ng add @angular/material # does @angular/material as a --save, and tries to add something like "styles": ["@angular/material/prebuilt-themes/rose-red.css"] to the angular.json "build" options.  Also puts these into index.html:
+#   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+#   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+# npm install --save-dev '@playwright/test' '@types/node' '@sand4rt/experimental-ct-angular'
